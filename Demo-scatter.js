@@ -2,7 +2,7 @@
 function init() {
   var data = [{
     x: [100,147,184,278,263,414,171],
-    y: [5477,14039,752,20895,11441,18605,432,],
+    y: [5477,14039,18605,20895,11441,432,752],
     mode:'markers+text',
     marker:{color:'orange',
     size:18
@@ -39,9 +39,7 @@ function init() {
     let dropdownMenu = d3.select("#selDataset");
     // Assign the value of the dropdown menu option to a variable
     let dataset = dropdownMenu.property("value");
-        layout = {
-        title:'Adding Names to Line and Scatter Plot'
-    };
+        
     // Initialize x and y arrays
     var x = [];
     var y = [];
@@ -49,13 +47,13 @@ function init() {
   
     if (dataset === 'Entire home/apt') {
       x = [100,147,184,278,263,414,171];
-      y = [5477,432,14039,752,20895,11441,18605];
+      y = [5477,14039,18605,20895,11441,432,752];
     
     }
   
     else if (dataset === 'Private room') {
-      x = [88,95,3,136,166,158,262];
-      y = [2134,697,4977,859,12661,8060,2986];
+      x = [88,95,140,136,166,158,262];
+      y = [2134,4977,2986,12661,8060,697,859];
                   
     }
   

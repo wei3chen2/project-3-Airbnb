@@ -1,6 +1,6 @@
 var map = L.map('map', {
     center: [22.28327, 20.1127],
-    zoom: 2.5
+    zoom: 2
   });
   
   // Adding  3 basemap layers (the background map image) to our map:

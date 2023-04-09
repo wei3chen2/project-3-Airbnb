@@ -12,7 +12,7 @@ var trace1 = {
 
   var trace2 = {
     x: ['Bangkok',  'Instanbul', 'Paris', 'London', 'Newyork','Singapore ', 'Hongkong'],
-    y: [88,95,3,136,166,158,262],
+    y: [88,95,140,136,166,158,262],
     type: 'bar',
     name: 'Private room',
     marker: {
